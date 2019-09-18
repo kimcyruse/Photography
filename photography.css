@@ -1,0 +1,24 @@
+img {
+	/* to make each img 30% size of the page */
+	width: 30%;
+	/* since theres 10% left - divide by 6 to make each sides of the images even */
+	margin: 1.66%;
+	/* to take away the spacing in between img and make them float to the left */
+	float: left;
+}
+
+p {
+	/* used from the google fonts that was imported in stylesheet */
+	font-family: 'Finger Paint', cursive;
+	width: 30%;
+	margin: 1.66%;
+	/* to make the texts in the paragraph all uppercase */
+	text-transform: uppercase;
+	/* to add weight to the text */
+	font-weight: 800;
+	font-size: 25px;
+	/* to add a bottom border */
+	border-bottom: .5px solid #f1f1f1;
+	/* to give a bottom padding */
+	padding-bottom: 20px;
+}
